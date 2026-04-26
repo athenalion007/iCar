@@ -7,7 +7,10 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { color: #1a1a1a; margin-bottom: 10px; }
+        .lang-switch { position: absolute; top: 20px; right: 20px; }
+        .lang-switch a { color: #007aff; text-decoration: none; padding: 5px 10px; border: 1px solid #007aff; border-radius: 4px; }
+        .lang-switch a:hover { background: #007aff; color: white; }
+        h1 { color: #1a1a1a; margin-bottom: 10px; margin-top: 40px; }
         .date { color: #666; font-size: 14px; margin-bottom: 30px; }
         h2 { color: #2c2c2c; margin-top: 30px; margin-bottom: 15px; font-size: 20px; }
         h3 { color: #444; margin-top: 20px; margin-bottom: 10px; font-size: 16px; }
@@ -22,10 +25,15 @@
         @media (max-width: 600px) {
             body { padding: 15px; }
             table { font-size: 14px; }
+            .lang-switch { position: static; margin-bottom: 20px; text-align: right; }
         }
     </style>
 </head>
 <body>
+    <div class="lang-switch">
+        <a href="privacy-policy-en.html">English</a>
+    </div>
+
     <h1>iCar 隐私政策</h1>
     <p class="date">最后更新日期：2026年4月26日 | 生效日期：2026年4月26日</p>
 

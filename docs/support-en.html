@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCar App Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .lang-switch { position: absolute; top: 20px; right: 20px; }
+        .lang-switch a { color: #007aff; text-decoration: none; padding: 5px 10px; border: 1px solid #007aff; border-radius: 4px; }
+        .lang-switch a:hover { background: #007aff; color: white; }
+        h1 { color: #1a1a1a; margin-bottom: 10px; margin-top: 40px; }
+        .subtitle { color: #666; margin-bottom: 30px; }
+        h2 { color: #2c2c2c; margin-top: 30px; margin-bottom: 15px; font-size: 20px; border-bottom: 2px solid #007aff; padding-bottom: 10px; }
+        h3 { color: #444; margin-top: 20px; margin-bottom: 10px; font-size: 16px; }
+        p { margin-bottom: 15px; }
+        ul { margin-left: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .contact-box { background: #f0f7ff; padding: 20px; border-radius: 8px; margin: 30px 0; }
+        .faq-item { background: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; }
+        .faq-question { font-weight: 600; color: #007aff; margin-bottom: 8px; }
+        .step { display: flex; margin-bottom: 15px; }
+        .step-number { background: #007aff; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 12px; flex-shrink: 0; font-size: 14px; }
+        .step-content { flex: 1; }
+        @media (max-width: 600px) {
+            body { padding: 15px; }
+            .lang-switch { position: static; margin-bottom: 20px; text-align: right; }
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-switch">
+        <a href="support.html">中文</a>
+    </div>
+
+    <h1>iCar App Support</h1>
+    <p class="subtitle">We're here to help you with any issues you may encounter</p>
+
+    <div class="contact-box">
+        <h3>📧 Contact Support Team</h3>
+        <p><strong>Email:</strong> support@icar-app.com</p>
+        <p><strong>Response Time:</strong> Within 24 hours on business days</p>
+        <p><strong>Service Hours:</strong> Monday-Friday 9:00-18:00 (GMT+8)</p>
+    </div>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: How accurate is the AI detection?</div>
+        <p>A: iCar uses advanced CoreML models for local AI analysis. Paint detection accuracy is approximately 85-90%, tire depth detection error is within ±0.5mm, and engine sound diagnosis is based on spectral analysis technology. Detection results are for reference only; for major faults, please consult a professional technician.</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: Is my data secure?</div>
+        <p>A: Absolutely secure. All data (photos, recordings, inspection reports) is processed locally on your device and will not be uploaded to any server. You can delete all data at any time through the app settings.</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: Why does the app need so many permissions?</div>
+        <p>A: Each permission corresponds to a core function: Camera for capturing vehicle photos, Microphone for recording engine sounds, Location for recording inspection locations, and Motion sensors for suspension vibration analysis. All permissions can be managed in system settings at any time.</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: Which vehicle models are supported?</div>
+        <p>A: iCar supports all brands and models of cars, SUVs, and light trucks. The AI models have been trained on extensive vehicle data and can identify most common vehicle issues.</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: How do I export inspection reports?</div>
+        <p>A: On the report details page, tap the "Share Report" button to export a complete inspection report in PDF format, which can be shared with repair technicians via email, messaging apps, etc.</p>
+    </div>
+
+    <h2>Feature Usage Guides</h2>
+
+    <h3>Tire Inspection</h3>
+    <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">Enter the "Tire Inspection" feature and select the tire position to inspect (front left, front right, rear left, rear right)</div>
+    </div>
+    <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">Point the camera at the tire tread, ensuring adequate lighting and clear visibility of the tire surface</div>
+    </div>
+    <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">Tap the capture button, and AI will automatically analyze tread depth and wear patterns</div>
+    </div>
+    <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">View the inspection report to understand tire health status and recommended actions</div>
+    </div>
+
+    <h3>Engine Diagnosis</h3>
+    <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">Enter the "Engine Diagnosis" feature and ensure the vehicle is in idle state</div>
+    </div>
+    <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">Hold your phone's microphone near the engine compartment (approximately 30-50cm away)</div>
+    </div>
+    <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">Tap the record button and record 10-15 seconds of engine sound</div>
+    </div>
+    <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">AI will analyze spectral characteristics to identify potential fault types</div>
+    </div>
+
+    <h2>Troubleshooting</h2>
+
+    <h3>App Cannot Access Camera</h3>
+    <ul>
+        <li>Go to iOS Settings > iCar > Camera and ensure permission is enabled</li>
+        <li>Check if another app is currently using the camera</li>
+        <li>Restart the app or device</li>
+    </ul>
+
+    <h3>AI Detection Results Are Inaccurate</h3>
+    <ul>
+        <li>Ensure the shooting environment has adequate lighting, avoiding shadows and reflections</li>
+        <li>Keep the camera steady to avoid blur</li>
+        <li>Make sure the area being inspected is within the frame</li>
+        <li>Clean the camera lens</li>
+    </ul>
+
+    <h3>App Crashes or Freezes</h3>
+    <ul>
+        <li>Ensure iOS version is 16.0 or higher</li>
+        <li>Close other background apps to free up memory</li>
+        <li>Check if device storage is sufficient (recommend keeping 2GB+ free)</li>
+        <li>Try restarting the device</li>
+    </ul>
+
+    <h2>Version Information</h2>
+    <p><strong>Current Version:</strong> 1.0.0 (Build 100)</p>
+    <p><strong>Supported Systems:</strong> iOS 16.0 or higher</p>
+    <p><strong>Supported Devices:</strong> iPhone, iPad</p>
+    <p><strong>Last Updated:</strong> April 26, 2026</p>
+
+    <h2>Feedback & Suggestions</h2>
+    <p>We value your feedback! If you have any suggestions or discover bugs, please contact us:</p>
+    <ul>
+        <li>📧 Email: feedback@icar-app.com</li>
+        <li>🐛 When describing issues, please include: device model, iOS version, and steps to reproduce the problem</li>
+    </ul>
+
+    <p style="margin-top: 40px; color: #666; font-size: 14px; text-align: center;">
+        © 2026 iCar. All rights reserved.<br>
+        <a href="privacy-policy-en.html">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </p>
+</body>
+</html>
