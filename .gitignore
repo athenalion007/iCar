@@ -1,0 +1,128 @@
+# ============================================
+# iCar - Git Ignore Rules
+# ============================================
+
+# ============================================
+# Xcode
+# ============================================
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+.build/
+iOSInjectionProject/
+*.xcworkspace
+
+# ============================================
+# Swift Package Manager
+# ============================================
+Packages/
+Package.pins
+Package.resolved
+
+# ============================================
+# CocoaPods / Carthage / fastlane
+# ============================================
+Pods/
+Carthage/Build/
+Dependencies/
+.accio/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ============================================
+# macOS System Files
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ============================================
+# IDE & Editor
+# ============================================
+.vscode/
+.trae/
+*.swp
+*.swo
+*~
+
+# ============================================
+# Sensitive Files
+# ============================================
+*.p12
+*.pem
+*.key
+*.keystore
+*.jks
+*.cer
+*.mobileprovision
+.ssh/
+credentials/
+secrets/
+.env
+.env.*
+!.env.example
+*_secret*
+*_private*
+
+# ============================================
+# Internal Documentation (exclude from public repo)
+# ============================================
+GITHUB_PUSH_GUIDE.md
+CHECKLIST.md
+INTEGRATION_STATUS.md
+INTEGRATION_COMPLETE.md
+SIMPLE_SOLUTION.md
+UI_UX_IMPROVEMENTS.md
+DESIGN_SYSTEM.md
+ARCHITECTURE_REVIEW.md
+TFLITE_INTEGRATION.md
+MODEL_REFERENCE.txt
+project.yml
+AUTO_INTEGRATE.sh
+INTEGRATE_TFLITE.sh
+auto_integrate_tflite.py
+
+# ============================================
+# Model Training Data (may contain datasets)
+# ============================================
+ModelTraining/
+
+# ============================================
+# Backups & Temp
+# ============================================
+*.backup*/
+*.zip
+tmp/
+temp/
