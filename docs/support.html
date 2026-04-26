@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCar 应用支持</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #1a1a1a; margin-bottom: 10px; }
+        .subtitle { color: #666; margin-bottom: 30px; }
+        h2 { color: #2c2c2c; margin-top: 30px; margin-bottom: 15px; font-size: 20px; border-bottom: 2px solid #007aff; padding-bottom: 10px; }
+        h3 { color: #444; margin-top: 20px; margin-bottom: 10px; font-size: 16px; }
+        p { margin-bottom: 15px; }
+        ul { margin-left: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .contact-box { background: #f0f7ff; padding: 20px; border-radius: 8px; margin: 30px 0; }
+        .faq-item { background: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 15px; }
+        .faq-question { font-weight: 600; color: #007aff; margin-bottom: 8px; }
+        .step { display: flex; margin-bottom: 15px; }
+        .step-number { background: #007aff; color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 12px; flex-shrink: 0; font-size: 14px; }
+        .step-content { flex: 1; }
+        @media (max-width: 600px) {
+            body { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <h1>iCar 应用支持</h1>
+    <p class="subtitle">我们随时为您提供帮助，解决使用中的任何问题</p>
+
+    <div class="contact-box">
+        <h3>📧 联系支持团队</h3>
+        <p><strong>邮箱：</strong>support@icar-app.com</p>
+        <p><strong>响应时间：</strong>工作日 24 小时内回复</p>
+        <p><strong>服务时间：</strong>周一至周五 9:00-18:00 (北京时间)</p>
+    </div>
+
+    <h2>常见问题 (FAQ)</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: AI检测的准确性如何？</div>
+        <p>A: iCar使用先进的CoreML模型进行本地AI分析。漆面检测准确率约85-90%，轮胎深度检测误差在±0.5mm以内，发动机声音诊断基于频谱分析技术。检测结果仅供参考，重大故障建议咨询专业技师。</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: 我的数据安全吗？</div>
+        <p>A: 绝对安全。所有数据（照片、录音、检测报告）仅在您的设备本地处理，不会上传到任何服务器。您可以通过应用设置随时删除所有数据。</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: 为什么需要这么多权限？</div>
+        <p>A: 每个权限都对应核心功能：相机用于拍摄车辆照片，麦克风用于录制发动机声音，位置用于记录检测地点，运动传感器用于悬挂振动分析。所有权限均可随时在系统设置中管理。</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: 支持哪些车型？</div>
+        <p>A: iCar支持所有品牌和型号的汽车、SUV和轻型卡车。AI模型经过大量车型数据训练，可识别大多数常见车辆问题。</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Q: 如何导出检测报告？</div>
+        <p>A: 在报告详情页面，点击"分享报告"按钮即可导出PDF格式的完整检测报告，可通过邮件、微信等方式分享给维修技师。</p>
+    </div>
+
+    <h2>功能使用指南</h2>
+
+    <h3>轮胎检测</h3>
+    <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">进入"轮胎检测"功能，选择需要检测的轮胎位置（前左、前右、后左、后右）</div>
+    </div>
+    <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">将相机对准轮胎胎面，确保光线充足，轮胎表面清晰可见</div>
+    </div>
+    <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">点击拍摄按钮，AI将自动分析花纹深度和磨损模式</div>
+    </div>
+    <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">查看检测报告，了解轮胎健康状况和建议措施</div>
+    </div>
+
+    <h3>引擎听诊</h3>
+    <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">进入"引擎听诊"功能，确保车辆处于怠速状态</div>
+    </div>
+    <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">将手机麦克风靠近发动机舱（距离约30-50cm）</div>
+    </div>
+    <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">点击录制按钮，录制10-15秒发动机声音</div>
+    </div>
+    <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">AI将分析频谱特征，识别潜在故障类型</div>
+    </div>
+
+    <h2>故障排除</h2>
+
+    <h3>应用无法访问相机</h3>
+    <ul>
+        <li>前往 iOS 设置 > iCar > 相机，确保权限已开启</li>
+        <li>检查是否有其他应用正在使用相机</li>
+        <li>重启应用或设备</li>
+    </ul>
+
+    <h3>AI检测结果不准确</h3>
+    <ul>
+        <li>确保拍摄环境光线充足，避免阴影和反光</li>
+        <li>保持相机稳定，避免模糊</li>
+        <li>确保被检测部位在取景框内</li>
+        <li>清洁相机镜头</li>
+    </ul>
+
+    <h3>应用崩溃或卡顿</h3>
+    <ul>
+        <li>确保iOS系统版本为iOS 16.0或更高</li>
+        <li>关闭后台其他应用释放内存</li>
+        <li>检查设备存储空间是否充足（建议保留2GB以上）</li>
+        <li>尝试重启设备</li>
+    </ul>
+
+    <h2>版本信息</h2>
+    <p><strong>当前版本：</strong>1.0.0 (Build 100)</p>
+    <p><strong>支持系统：</strong>iOS 16.0 或更高版本</p>
+    <p><strong>支持设备：</strong>iPhone、iPad</p>
+    <p><strong>最后更新：</strong>2026年4月26日</p>
+
+    <h2>反馈与建议</h2>
+    <p>我们非常重视您的反馈！如果您有任何建议或发现bug，请通过以下方式联系我们：</p>
+    <ul>
+        <li>📧 发送邮件至：feedback@icar-app.com</li>
+        <li>🐛 描述问题时请包含：设备型号、iOS版本、问题复现步骤</li>
+    </ul>
+
+    <p style="margin-top: 40px; color: #666; font-size: 14px; text-align: center;">
+        © 2026 iCar. 保留所有权利。<br>
+        <a href="privacy-policy.html">隐私政策</a> | <a href="#">使用条款</a>
+    </p>
+</body>
+</html>
